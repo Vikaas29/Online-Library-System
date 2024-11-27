@@ -21,7 +21,7 @@ export function DisplayScreen(){
     return (<div className="displayScreen">
     <h2>{filter[0].toUpperCase()} BOOKS...</h2>
     <div className="booksDisplay">
-        {books.map(e=><Book key={e.title} data={e}></Book>)}
+        {books.map(e=><Book key={e.id} data={e}></Book>)}
     </div>
     
     </div>)

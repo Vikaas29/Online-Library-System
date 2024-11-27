@@ -10,7 +10,7 @@ export const Library=[
     },
     {
         "id": "2",
-        "title": "Educated",
+        "title": "Educated Ant",
         "author": "Tara Westover",
         "genre": "Non-Fiction",
         "description": "A memoir about a young woman who grows up in a strict, abusive household in rural Idaho.",

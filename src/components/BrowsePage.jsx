@@ -11,7 +11,8 @@ export function BrowsePage(){
     const[fbooks,setFbooks]=useState([...books]);
     // console.log(books)
     function handleSearch(){
-        setFbooks(books.filter((e)=>{return e[filters].toLowerCase().includes(input.toLowerCase())}));
+        let b=books.filter((e)=>{return e[filters].toLowerCase().includes(input.toLowerCase())})
+        setFbooks(b);
         
     }
     return(<><Navigation/>
@@ -25,7 +26,7 @@ export function BrowsePage(){
     <input type="checkbox" id="author" name="one" value="author" onClick={()=>{if(filters=="title")setFilters("author") ;else setFilters("title"); }}/>Search by Author||Default:Title
     </div>
     <div className="browseBooksDisplay">
-    {fbooks.map(e=><Book key={e.title} data={e}></Book>)}
+    {fbooks.map(e=><Book key={e.id} data={e}></Book>)}
     </div>
 
 </div></>)

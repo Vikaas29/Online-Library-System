@@ -26,6 +26,7 @@ export function CatergoryPage(){
     return (<>
     <Navigation/>
     <div className="displayScreen displayScreenTwo">
+        <h1>{filter.toUpperCase()} Books</h1>
     <div className="booksDisplay">
         {books.map(e=><Book key={e.id} data={e}></Book>)}
     </div>
