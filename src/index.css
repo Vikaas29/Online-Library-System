@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #A888B5;
+    position: relative;
+}
+header{
+    height: 5vh;
+}
+h1{
+    text-align: center;
+    font-family: monospace,'Times New Roman', Times, serif;
+    margin: 10px;
+    text-shadow: -2px 2px 0px black;
+    color:#FFD2A0 ;
+
+}
+h2{
+    margin: 5px;
+    text-shadow: 1px -1px 0px plum;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#8174A0 ;
+    height: 5vh;
+}
+.twoButtons{
+    width: 50%;
+    align-content: start;
+}
+.addButton{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+button{
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: monospace,'Times New Roman', Times, serif;
+    background-color: white;
+    border-radius: 10px;
+    transition: all .2s;
+}
+button:hover{
+    transform: translateY(-2px);
+}
+.mainScreen{
+    display: flex;
+    background-color:#EFB6C8 ;
+}
+.category{
+    width: 20%;
+    height: 85vh;
+    border: 1px black solid;
+    text-align: center;
+    background-color: plum;
+}
+.displayScreen{
+    width: 80%;
+    height:85vh ;
+    border: 1px black solid;
+    text-align: center;
+    overflow-y: scroll;
+}
+.allCategories{
+    margin-top: 30%;
+    
+}
+.categoryButton{
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right:20%;
+    border: 1px solid black;
+    padding: 2px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: monospace,'Times New Roman', Times, serif;
+    transition: all .1s linear;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px -5px 0px ;
+    background-color: white;
+}
+.categoryButton:hover{
+    transform: translateY(-5px);
+}
+.popular{
+    padding: 20px;
+}
+.bookBox{
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumaquamarine;
+    box-shadow: #FFD2A0 3px -3px 10px;
+}
+.booksDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 260px;
+    height: 300px;
+    border-radius: 10px;
+}
+.viewDetails{
+    height: 20px;
+    padding: 1px;
+}
+.browsePage{
+    height: 90vh;
+}
+.browseBooksDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    height: 82vh;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+}
+.searchArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+    height: 5vh;
+}
+.searchInput{
+    padding: 5px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px black solid;
+}
+.FullBookDetailPage{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border: 1px black solid;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    box-shadow: #8174A0 15px -15px 10px;  
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin: 50px;
+}
+.formInput{
+    width: 400px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+}
+
+.footer{
+    height: 5vh;
+    width: 100%;
+    background-color: grey;
+    position: static;
+    bottom: 0px;
+   
+}
+.addBookPage{
+    height: 90vh;
+}
+.container{
+    height: 90vh;
+}
+.displayScreenTwo{
+    height: 90vh;
+    width: 100%;
+}
