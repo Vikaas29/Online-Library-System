@@ -18,8 +18,8 @@ export function Category(){
         <div className="subCategories categoryButton" onClick={()=>{handleChange("Romance")}}> Romance</div>
         <div className="subCategories categoryButton" onClick={()=>{handleChange("Fantasy")}}> Fantasy</div>
         <div className="subCategories categoryButton" onClick={()=>{handleChange("Biography")}}> Biography</div>
-        <div className="subCategories categoryButton" onClick={()=>{handleChange("Biography")}}> Mystery</div>
-        <div className="subCategories categoryButton" onClick={()=>{handleChange("Mystery")}}> Historical</div>
+        <div className="subCategories categoryButton" onClick={()=>{handleChange("mystery")}}> Mystery</div>
+        <div className="subCategories categoryButton" onClick={()=>{handleChange("Historical")}}> Historical</div>
         <div className="subCategories categoryButton" onClick={()=>{handleChange("Horror")}}> Horror</div>
         <div className="subCategories categoryButton" onClick={()=>{handleChange("Self-Help")}}> Self-Help</div>
     </div>
